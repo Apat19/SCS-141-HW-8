@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D91435C329F883E600ABD0FC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91435C229F883E600ABD0FC /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		D92B4E7B29F846DD0025E249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B4E7A29F846DD0025E249 /* AppDelegate.swift */; };
 		D92B4E7D29F846DD0025E249 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B4E7C29F846DD0025E249 /* SceneDelegate.swift */; };
 		D92B4E7F29F846DD0025E249 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B4E7E29F846DD0025E249 /* ViewController.swift */; };
 		D92B4E8229F846DD0025E249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92B4E8029F846DD0025E249 /* Main.storyboard */; };
 		D92B4E8429F846DF0025E249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92B4E8329F846DF0025E249 /* Assets.xcassets */; };
 		D92B4E8729F846DF0025E249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92B4E8529F846DF0025E249 /* LaunchScreen.storyboard */; };
+		D966301629F88E2A0009BA9B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D966301529F88E2A0009BA9B /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D91435C229F883E600ABD0FC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D92B4E7729F846DD0025E249 /* SCS 141 HW 6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SCS 141 HW 6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92B4E7A29F846DD0025E249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D92B4E7C29F846DD0025E249 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		D92B4E8329F846DF0025E249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D92B4E8629F846DF0025E249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D92B4E8829F846DF0025E249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D966301529F88E2A0009BA9B /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91435C329F883E600ABD0FC /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D91435C129F883E600ABD0FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D91435C229F883E600ABD0FC /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D92B4E6E29F846DD0025E249 = {
 			isa = PBXGroup;
 			children = (
 				D92B4E7929F846DD0025E249 /* SCS 141 HW 6 */,
 				D92B4E7829F846DD0025E249 /* Products */,
+				D91435C129F883E600ABD0FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +73,7 @@
 				D92B4E7A29F846DD0025E249 /* AppDelegate.swift */,
 				D92B4E7C29F846DD0025E249 /* SceneDelegate.swift */,
 				D92B4E7E29F846DD0025E249 /* ViewController.swift */,
+				D966301529F88E2A0009BA9B /* WebViewController.swift */,
 				D92B4E8029F846DD0025E249 /* Main.storyboard */,
 				D92B4E8329F846DF0025E249 /* Assets.xcassets */,
 				D92B4E8529F846DF0025E249 /* LaunchScreen.storyboard */,
@@ -141,6 +156,7 @@
 				D92B4E7F29F846DD0025E249 /* ViewController.swift in Sources */,
 				D92B4E7B29F846DD0025E249 /* AppDelegate.swift in Sources */,
 				D92B4E7D29F846DD0025E249 /* SceneDelegate.swift in Sources */,
+				D966301629F88E2A0009BA9B /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
